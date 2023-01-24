@@ -1,115 +1,81 @@
 
 <h1 align="center">
-  <img src="./app/assets/logo.png" alt="Markdownify" width="50%"></a>
+  <img src="logo.png" alt="CuscaTurmasISEC" width="100%"></a>
 </h1>
-
-<h4 align="center">A CLI/GUI to shotgun classes from InforEstudante platform</h4>
+<h4 align="center">A CLI tool to sneak peek internship proposals from ISEC</h4>
 
 <p align="center">
   <a href="https://www.python.org/downloads/">
     <img height="25px" style="border-radius: 5px;" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
   </a>
-  <a href="https://builtwithnix.org">
-    <img height="25px" src="https://builtwithnix.org/badge.svg">
-  </a>
+
 </p>
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
-  <a href="#credits">Credits</a>
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#example">Example</a>
 </p>
 
-![screenshot](./app/assets/cover.png)
+<div align="center">
+    <img align="center" style="border-radius: 5px; width: 100%" src="example.gif">
+</div>
 
 ## Key Features
 
-* Shotgun classes from InforEstudante before any of the other students
-* Multi-threaded which means you can shotgun classes from different subjects at the same time
-* Select multiple classes by order of preference
-* Quickly and easily configurable through a JSON file
+* See what internship proposals the students are choosing using Moodle filters
+* Save the results in a JSON file that's easy to interpret
 * Simple CLI that requires almost zero effort to use
-    - Also available in the form of a Graphical User Interface (GUI) if you are not too into consoles and that kind of stuff
-> **UPCOMMING**: feature to keep application trying to subscribe to a class until successful
 
-## How To Use
-### CLI
+> **UPCOMMING**: feature to list students that have chosen a certain proposal
+
+## Download
 To run this application you will only need to have [Python](https://www.python.org/downloads/) 3.0.0 or higher installed on your computer.
 <br>
-Download **rouba_turmas.py** and **config.json** from the releases page and you are good to go, just run `python rouba_turmas.py` and the classes are all yours!
-* Be sure to place the script and the JSON file in the same directory
-
-Some libraries were used so you will need to install them using pip. To do so, grab **requirements.txt** and run one of the following commands on a terminal:
-```bash
-# install thorugh requirements.txt
-$ pip install -r requirements.txt
-
-# or just run this command
-$ pip install bs4 lxml requests
-```
-
-Before launching the script you will need to edit the **config.json** file to fit your needs. 
-Here is a example configuration:
-```json
-{
-    "time_to_run": "17:37:00", // specify a time for the script to run, leave "" to run immediately
-    "domain": "inforestudante.ipc.pt",
-    "student_number": "a2020143845",
-    "classes": [
-        {
-            "name": "Arquiteturas Móveis",
-            "practice": ["P2", "P3"],
-            "theoric": ["T1"],
-            "theoric_practice": []
-        } //, add more subjects using the same format
-    ]
-}
-```
-* `domain`: the domain of your institution (only InforEstudante is supported)
-* `student_number`: your student number/email
-* `classes`: array of classes
-  - `name`: name of the subject
-  - `practice`: ID of practice class (ordered by preference)
-  - `theoric`: ID of theoric class (ordered by preference)
-  - `theoric_practice`: ID of theoric_practice class (ordered by preference)
-
-
-<br>
-After launching the script, it will show you what's happening behind the curtains as it goes and hopefully by the end you will have the classes you wanted the most :)
-
-
-### GUI
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Download **cusca_turmas.py** from the releases page and you are good to go, just run `python cusca_turmas.py` and the classes are all yours!
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Asuryu/RoubaTurmasISEC
+$ git clone https://github.com/Asuryu/CuscaTurmasISEC
 
 # Go into the repository
-$ cd RoubaTurmasISEC
-$ cd app
+$ cd CuscaTurmasISEC
 
-# Install dependencies
-$ npm install
+# Install dependencies 
+$ pip install -r requirements.txt
 
-# Run the app
-$ npm start
+# Run the script
+$ python app.py
 ```
 
-> **Note:**
-> If you do not want to follow the previous approach, you can always download a build of the application from the [releases](https://github.com/Asuryu/RoubaTurmasISEC/releases) page.
+## How To Use
+After launching the script, you will be asked to login in Moodle using your credentials and then it will show you what proposals are being scanned at the moment.<br>
+When the script finishes searching all the proposals in the selected interval, the application will save all the collected information on a JSON file named **data.json**.
 
-
-## Download
-
-You can [download](https://github.com/Asuryu/RoubaTurmasISEC/releases) the latest version of RoubaTurmasISEC for every platform that runs Python.
-> **Note:**
-> For the GUI version, only Windows and Mac are supported
-
-## Credits
-
-This software uses the following open source packages:
-
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
+## Example
+An example of what the output should look like when searching proposal 1 through 5 (1-5):
+```json
+{
+  "P001": [],
+  "P002": [
+    { 
+        "name": "Manel Tinoco", 
+        "number": "2040103953"
+    }
+  ],
+  "P003": [],
+  "P004": [],
+  "P005": [
+    {
+        "name": "Ana Cacho",
+        "number": "2039102034"
+    },
+    { 
+        "name": "Jacinto Leite", 
+        "number": "2039210421"
+    }
+  ]
+}
+```
+`The data will include all the students that selected each of the proposals.`

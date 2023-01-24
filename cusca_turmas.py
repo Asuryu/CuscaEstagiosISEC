@@ -141,4 +141,4 @@ if __name__ == "__main__":
         propostas_string = ""
         for proposta in aluno_propostas:
             propostas_string += f"{proposta}, "
-        console_print(f"    {propostas_string[:-2]}", "#fc8003")
+        console_print(f"   {propostas_string[:-2]}", "#fc8003")
