@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img src="logo.png" alt="CuscaTurmasISEC" width="100%"></a>
+  <img src="logo.png" alt="CuscaTurmasISEC" width="70%"></a>
 </h1>
 <h4 align="center">A CLI tool to sneak peek internship proposals from ISEC</h4>
 
