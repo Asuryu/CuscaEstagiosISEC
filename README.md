@@ -46,7 +46,7 @@ $ cd CuscaTurmasISEC
 $ pip install -r requirements.txt
 
 # Run the script
-$ python app.py
+$ python cusca_turmas.py
 ```
 
 ## How To Use
