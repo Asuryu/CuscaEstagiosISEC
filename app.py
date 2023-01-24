@@ -133,9 +133,12 @@ if __name__ == "__main__":
     save_propostas()
 
     search_user = console_prompt("\n[ > ] Introduza o número de aluno que pretende pesquisar: ", color="#85c2ff")
-    console_print(f"🔍 Propostas do aluno {search_user}:", "#ff9a36")
-    for proposta in get_propostas_by_aluno(search_user):
-        console_print(f"- {proposta}", "#46db98")
-        
-#token = soup.find("input", {"name": "sesskey"})["value"]
-#print(token)
+    console_print(f"🔍 Propostas do aluno {search_user}:", "#fc6b03")
+    aluno_propostas = get_propostas_by_aluno(search_user)
+    if len(aluno_propostas) == 0:
+        console_print(f"[ X ] Não foram encontradas propostas para o aluno {search_user}", "red")
+    else:
+        propostas_string = ""
+        for proposta in aluno_propostas:
+            propostas_string += f"{proposta}, "
+        console_print(f"    {propostas_string[:-2]}", "#fc8003")
