@@ -73,6 +73,7 @@ def get_candidaturas(propostaId):
         return
 
     candidaturas.pop(0)
+
     propostas[propostaId] = []
 
     for candidatura in candidaturas:
@@ -88,6 +89,9 @@ def get_candidaturas(propostaId):
             number.decompose()
             student["number"] = candidatura.find("table").find("tbody").findAll("tr")[0].findAll("td")[1].text[2:]
 
+        # check if student already exists
+        if student in propostas[propostaId]:
+            continue
         propostas[propostaId].append(student)
 
 def get_propostas_by_aluno(aluno):
@@ -104,7 +108,7 @@ def get_alunos_on_proposta(proposta):
     if proposta not in propostas:
         return alunos
     for candidatura in propostas[proposta]:
-        alunos.append(candidatura["number"])
+        alunos.append(candidatura)
     return alunos
 
 def save_propostas():
@@ -166,10 +170,8 @@ def procurarPropostasMenu():
     if len(proposta_alunos) == 0:
         console_print(f"[ X ] Não foram encontrados alunos na proposta {search_proposta}", "red")
     else:
-        propostas_string = ""
         for proposta in proposta_alunos:
-            propostas_string += f"{proposta}, "
-        console_print(f"   {propostas_string[:-2]} ({len(proposta_alunos)})", "#fc8003")
+            console_print(f" - " + proposta["number"] + " (" + proposta["name"] + ")", "#fc8003")
     console_prompt("\nPressione qualquer tecla para voltar ao menu...", "#adadad")
 
 def procurarAlunosMenu():
@@ -199,7 +201,7 @@ def main():
     #console_print("🚀  Bem-vindo ao CuscaEstagiosISEC!")
     console.print(Panel("🚀  Bem-vindo ao CuscaEstagiosISEC!", style="bold purple", expand=False))
     console_print("O que pretende fazer?  ", "#c285ff")
-    options = ["[q] Pesquisar propostas no Moodle", "[w] Procurar propostas de um aluno", "[e] Consultar alunos numa proposta", "[r] Sair"]
+    options = ["[1] Pesquisar propostas no Moodle", "[2] Procurar propostas de um aluno", "[3] Consultar alunos numa proposta", "[4] Sair"]
     terminal_menu = TerminalMenu(options)
     menu_entry_index = terminal_menu.show()
 
