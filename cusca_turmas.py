@@ -1,7 +1,6 @@
 import requests
 import json
 import time
-from simple_term_menu import TerminalMenu
 from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from getpass import getpass
@@ -10,8 +9,16 @@ from rich.progress import Progress
 from rich.prompt import Prompt
 from rich.panel import Panel
 
+
+use_simple_term_menu = True
 propostas = {}
 forms_candidatura_url = "https://moodle.isec.pt/moodle/mod/data/view.php?id=235588"
+
+try:
+    from simple_term_menu import TerminalMenu
+except:
+    import inquirer
+    use_simple_term_menu = False
 
 console = Console()
 s = requests.Session()
@@ -200,26 +207,49 @@ def main():
     console.clear()
     #console_print("🚀  Bem-vindo ao CuscaEstagiosISEC!")
     console.print(Panel("🚀  Bem-vindo ao CuscaEstagiosISEC!", style="bold purple", expand=False))
-    console_print("O que pretende fazer?  ", "#c285ff")
     options = ["[1] Pesquisar propostas no Moodle", "[2] Procurar propostas de um aluno", "[3] Consultar alunos numa proposta", "[4] Sair"]
-    terminal_menu = TerminalMenu(options)
-    menu_entry_index = terminal_menu.show()
 
-    if menu_entry_index == None:
-        # clear console rich
-        console.clear()
-        main()
+    if use_simple_term_menu:
+        console_print("O que pretende fazer?  ", "#c285ff")
+        terminal_menu = TerminalMenu(options)
+        menu_entry_index = terminal_menu.show()
 
-    console_print(f"\n{(options[menu_entry_index])[4:]}:", "#c9b3ff")
+        if menu_entry_index == None:
+            # clear console rich
+            console.clear()
+            main()
 
-    if menu_entry_index == 0:
-        procurarMoodleMenu()
-    elif menu_entry_index == 1:
-        procurarAlunosMenu()
-    elif menu_entry_index == 2:
-        procurarPropostasMenu()
-    elif menu_entry_index == 3:
-        exit()
+        console_print(f"\n{(options[menu_entry_index])[4:]}:", "#c9b3ff")
+
+        if menu_entry_index == 0:
+            procurarMoodleMenu()
+        elif menu_entry_index == 1:
+            procurarAlunosMenu()
+        elif menu_entry_index == 2:
+            procurarPropostasMenu()
+        elif menu_entry_index == 3:
+            exit()
+
+    else:
+        options = [option[4:] for option in options]
+        questions = [
+            inquirer.List('menu',
+                        message="O que pretende fazer?",
+                        choices=options,
+                        ),
+        ]
+        answers = inquirer.prompt(questions)
+
+        console_print(f"{answers['menu']}", "#c9b3ff")
+
+        if answers['menu'] == options[0]:
+            procurarMoodleMenu()
+        elif answers['menu'] == options[1]:
+            procurarAlunosMenu()
+        elif answers['menu'] == options[2]:
+            procurarPropostasMenu()
+        elif answers['menu'] == options[3]:
+            exit()
 
     main()
 
