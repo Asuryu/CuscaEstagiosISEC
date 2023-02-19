@@ -12,7 +12,8 @@ from rich.panel import Panel
 
 use_simple_term_menu = True
 propostas = {}
-forms_candidatura_url = "https://moodle.isec.pt/moodle/mod/data/view.php?id=235588"
+forms_candidatura_url = "https://moodle.isec.pt/moodle/mod/data/view.php?id=235972-"
+propostas_url = "https://moodle.isec.pt/moodle/mod/folder/view.php?id=235587"
 
 try:
     from simple_term_menu import TerminalMenu
@@ -197,6 +198,57 @@ def procurarAlunosMenu():
         console_print(f"   {propostas_string[:-2]} ({len(aluno_propostas)})", "#fc8003")
     console_prompt("\nPressione qualquer tecla para voltar ao menu...", "#adadad")
 
+def obterNomesPropostas():
+    load_propostas()
+    
+    #user = console_prompt("[ > ] Introduza o seu número de aluno: ", "#85c2ff")
+    #password = console_prompt("[ > ] Introduza a sua password: ", "#85c2ff", password=True)
+    
+    if login("2020143845", "Tgsilva2002") == 200:
+        console_print("[ ✓ ] Login efetuado com sucesso!", "green")
+    else: 
+        console_print("[ X ] Erro ao efetuar login!", "red")
+        console_prompt("\nPressione qualquer tecla para voltar ao menu...", "#adadad")
+        return
+    
+    r = get(propostas_url)
+    soup = BeautifulSoup(r.text, "html.parser")
+    propostas = soup.find_all("span", {"class": "fp-filename-icon"})
+
+    for item in propostas:
+        # example: 2022-P104-2S-DA-Mee-It-Projeto de Desenvolvimento - MES Mesprod.pdf
+        # will always be 6 parts
+        # 0 - year
+        # 1 - proposal number
+        # 2 - semester
+        # 3 - course
+        # 4 - company (can have spaces and "-" in it)
+        # 5 - proposal name (can have spaces and "-" in it)"
+        # ends with .pdf
+        parts = item.text.split("-")
+        year = parts[0]
+        proposal_number = parts[1]
+        semester = parts[2]
+        course = parts[3]
+        company = parts[4].strip()
+        proposal_name = "".join(parts[5:]).replace(".pdf", "")
+
+        proposal = {
+            "year": year,
+            "number": proposal_number,
+            "semester": semester[0] + "º Semestre",
+            "course": course,
+            "company": company,
+            "name": proposal_name,
+            "candidaturas": []
+        }
+
+        console_print(f"[ ✓ ] Proposta {item.text} obtida com sucesso!", "green")
+        console.print_json(json.dumps(proposal, indent=4, ensure_ascii=False))
+
+    
+    console_prompt("\nPressione qualquer tecla para voltar ao menu...", "#adadad")
+
 def console_print(message, color, style="bold"):
     console.print(f"[{color}]{message}[/]", style=style)
 
@@ -207,7 +259,7 @@ def main():
     console.clear()
     #console_print("🚀  Bem-vindo ao CuscaEstagiosISEC!")
     console.print(Panel("🚀  Bem-vindo ao CuscaEstagiosISEC!", style="bold purple", expand=False))
-    options = ["[1] Pesquisar propostas no Moodle", "[2] Procurar propostas de um aluno", "[3] Consultar alunos numa proposta", "[4] Sair"]
+    options = ["[1] Pesquisar propostas no Moodle", "[2] Procurar propostas de um aluno", "[3] Consultar alunos numa proposta", "[4] Atualizar os nomes das propostas", "[5] Sair"]
 
     if use_simple_term_menu:
         console_print("O que pretende fazer?  ", "#c285ff")
@@ -249,6 +301,8 @@ def main():
         elif answers['menu'] == options[2]:
             procurarPropostasMenu()
         elif answers['menu'] == options[3]:
+            obterNomesPropostas()
+        elif answers['menu'] == options[4]:
             exit()
 
     main()
