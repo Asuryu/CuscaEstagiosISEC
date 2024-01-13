@@ -207,9 +207,11 @@ def obterNomesPropostas():
     
     r = get(propostas_url)
     soup = BeautifulSoup(r.text, "html.parser")
-    propostas = soup.find_all("span", {"class": "fp-filename-icon"})
+    propostas_docs = soup.find_all("span", {"class": "fp-filename-icon"})
 
-    for item in propostas:
+    candidaturas = []
+
+    for item in propostas_docs:
         # example: 2022-P104-2S-DA-Mee-It-Projeto de Desenvolvimento - MES Mesprod.pdf
         # will always be 6 parts
         # 0 - year
@@ -237,9 +239,17 @@ def obterNomesPropostas():
             "candidaturas": []
         }
 
+        if proposal_number in propostas:
+            proposal["candidaturas"] = propostas[proposal_number]
+        
+        candidaturas.append(proposal)
+
         console_print(f"[ ✓ ] Proposta {item.text} obtida com sucesso!", "green")
         console.print_json(json.dumps(proposal, indent=4, ensure_ascii=False))
 
+    # write on candidaturas.json with correct characters instead of \u00e3
+    with open("candidaturas.json", "w", encoding="utf-8") as f:
+        f.write(json.dumps(candidaturas, indent=4, ensure_ascii=False))
     
     console_prompt("\nPressione qualquer tecla para voltar ao menu...", "#adadad")
 
