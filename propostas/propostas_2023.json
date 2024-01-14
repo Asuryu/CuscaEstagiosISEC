@@ -1,0 +1,1082 @@
+[
+    {
+        "year": "2023",
+        "number": "P001",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "XIS",
+        "name": "GROUPLaboratório de Cibersegurança"
+    },
+    {
+        "year": "2023",
+        "number": "P002",
+        "semester": "2º Semestre",
+        "course": "SI",
+        "company": "NOESIS",
+        "name": "MyPortal"
+    },
+    {
+        "year": "2023",
+        "number": "P003",
+        "semester": "2º Semestre",
+        "course": "SI",
+        "company": "NOESIS",
+        "name": "Portal de Colaborador"
+    },
+    {
+        "year": "2023",
+        "number": "P004",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "STREAMLINE",
+        "name": "Desenvolvimento de software Machine Learning na área de gestão energética de edifícios"
+    },
+    {
+        "year": "2023",
+        "number": "P005",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "STREAMLINE",
+        "name": "Developer Web ReactJS"
+    },
+    {
+        "year": "2023",
+        "number": "P006",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "STREAMLINE",
+        "name": "Integração em Equipa Multidisciplinar de Administração de Sistemas"
+    },
+    {
+        "year": "2023",
+        "number": "P007",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "STREAMLINE",
+        "name": "Software web na área de gestão energética de edifícios com tecnologias React"
+    },
+    {
+        "year": "2023",
+        "number": "P008",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "STREAMLINE",
+        "name": "Software backend na área de gestão energética de edifícios com tecnologias NodeJS, MQTT, LORA"
+    },
+    {
+        "year": "2023",
+        "number": "P009",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "MEDIAWEB",
+        "name": "Implementação de Styleguides e Design Systems"
+    },
+    {
+        "year": "2023",
+        "number": "P010",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "ALISTA",
+        "name": "Desenvolvimento de aplicações web"
+    },
+    {
+        "year": "2023",
+        "number": "P011",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "ESPECTRO",
+        "name": "Redes e Administração de Sistemas"
+    },
+    {
+        "year": "2023",
+        "number": "P012",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "SCREEN IN",
+        "name": "Desenvolvimento de Software area da rastreabilidade"
+    },
+    {
+        "year": "2023",
+        "number": "P013",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "AGAP2IT",
+        "name": "Plataforma de suporte a séniores"
+    },
+    {
+        "year": "2023",
+        "number": "P014",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "AGAP2IT",
+        "name": "Desenvolvimento de Agentes Autónomos"
+    },
+    {
+        "year": "2023",
+        "number": "P015",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "AGAP2IT",
+        "name": "Geração de smart contracts na rede Ethereum e aplicações descentralizadas"
+    },
+    {
+        "year": "2023",
+        "number": "P016",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "Intelligent Lab on Fiber",
+        "name": "Development of an AIbased recruiting platform"
+    },
+    {
+        "year": "2023",
+        "number": "P017",
+        "semester": "2º Semestre",
+        "course": "RASSI",
+        "company": "G9TELECOM",
+        "name": "WebRTC Integração de App em CloudPBX para Contact Center"
+    },
+    {
+        "year": "2023",
+        "number": "P018",
+        "semester": "2º Semestre",
+        "course": "RASSI",
+        "company": "G9TELECOM",
+        "name": "VoIP Captura remota de tráfego de protocolo SIP"
+    },
+    {
+        "year": "2023",
+        "number": "P019",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "MAINSOFTWARE",
+        "name": "Sweb CRM  Mobile"
+    },
+    {
+        "year": "2023",
+        "number": "P020",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "SENSING FUTURE",
+        "name": "Desenvolvimento de frontend para comunicar com Firebase"
+    },
+    {
+        "year": "2023",
+        "number": "P021",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ETIZ",
+        "name": "Aplicativo Android para certificação energética do edifício"
+    },
+    {
+        "year": "2023",
+        "number": "P022",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "ETIZ",
+        "name": "Desenvolvimento Full Stack para plataforma de certificação energética do edifício"
+    },
+    {
+        "year": "2023",
+        "number": "P023",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DELOITTE",
+        "name": "Digital Process Automation  Business Process Management _BPM_ Frameworks"
+    },
+    {
+        "year": "2023",
+        "number": "P024",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DELOITTE",
+        "name": "Digital Transformation Integration  API Management Framework"
+    },
+    {
+        "year": "2023",
+        "number": "P025",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Diagrammer"
+    },
+    {
+        "year": "2023",
+        "number": "P026",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Integração e Processamento de BigData"
+    },
+    {
+        "year": "2023",
+        "number": "P027",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Mockup Data Generator"
+    },
+    {
+        "year": "2023",
+        "number": "P028",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Fielconforto",
+        "name": "Desenvolvimento beta para um novo file format chamado duc"
+    },
+    {
+        "year": "2023",
+        "number": "P029",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "izertis",
+        "name": "Estágio em Desenvolvimento de Aplicações"
+    },
+    {
+        "year": "2023",
+        "number": "P030",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "Grestel – Produtos Cerâmicos, S.A.",
+        "name": "ISAAC  Integration System for Advanced Automation and Connectivity"
+    },
+    {
+        "year": "2023",
+        "number": "P031",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "Grestel – Produtos Cerâmicos, S.A.",
+        "name": "GERES  Gestão de equipamentos de rede e servidores"
+    },
+    {
+        "year": "2023",
+        "number": "P032",
+        "semester": "2º Semestre",
+        "course": "DARAS",
+        "company": "Deploy Knowledge Consulting",
+        "name": "Programação e Administração de Sistemas para Software SAP_ERP"
+    },
+    {
+        "year": "2023",
+        "number": "P033",
+        "semester": "2º Semestre",
+        "course": "SI",
+        "company": "Instituo Pedro Nunes",
+        "name": "Sistema de Informação do IPN"
+    },
+    {
+        "year": "2023",
+        "number": "P034",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "GoodBarber",
+        "name": "Aplicação iOS de edição para os clientes da GoodBarber"
+    },
+    {
+        "year": "2023",
+        "number": "P035",
+        "semester": "2º Semestre",
+        "course": "Ramo",
+        "company": "Instituto Pedro Nunes",
+        "name": "Otimização da prescrição de planos de intervenção para sistemas de telereabilitação"
+    },
+    {
+        "year": "2023",
+        "number": "P036",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC00378obcp_motor"
+    },
+    {
+        "year": "2023",
+        "number": "P037",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC00379obcp_interpretador"
+    },
+    {
+        "year": "2023",
+        "number": "P038",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC02369obcp_servico_18_pus"
+    },
+    {
+        "year": "2023",
+        "number": "P039",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC02410servico_22_pus"
+    },
+    {
+        "year": "2023",
+        "number": "P040",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC05484software_controlo_missao"
+    },
+    {
+        "year": "2023",
+        "number": "P041",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC05485Certificação de Sistema Operativo de Tempo Real para Aviação Civil"
+    },
+    {
+        "year": "2023",
+        "number": "P042",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC05486Quality Assurance em projectos de Aviação Civil"
+    },
+    {
+        "year": "2023",
+        "number": "P043",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "DEIS",
+        "name": "Plataforma Irmãs Hospitaleiras  Aplicação Móvel"
+    },
+    {
+        "year": "2023",
+        "number": "P044",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "DEIS",
+        "name": "Plataforma Irmãs Hospitaleiras  Aplicação Interativa"
+    },
+    {
+        "year": "2023",
+        "number": "P045",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC05309Desenvolvimento de Software com Base em Modelos para Sistemas Médicos"
+    },
+    {
+        "year": "2023",
+        "number": "P046",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC05311Cyber Security"
+    },
+    {
+        "year": "2023",
+        "number": "P047",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "CRITICAL",
+        "name": "CSW2023DOC05310Testes aplicacionais em sistemas críticos"
+    },
+    {
+        "year": "2023",
+        "number": "P048",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Realidade aumentada no campus"
+    },
+    {
+        "year": "2023",
+        "number": "P049",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "WaterNess App"
+    },
+    {
+        "year": "2023",
+        "number": "P050",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "YOUSHIP",
+        "name": "Desenvolvimento de uma aplicação móvel BLE em Flutter"
+    },
+    {
+        "year": "2023",
+        "number": "P051",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "VOPAK",
+        "name": "OfficeLog Registro Digital do Escritório"
+    },
+    {
+        "year": "2023",
+        "number": "P052",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "ABOUTAV",
+        "name": "Desenvolvimento de Sofware "
+    },
+    {
+        "year": "2023",
+        "number": "P053",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "SENTILANT",
+        "name": "Integração do ChatGPT com um sistema de gestão de transportes"
+    },
+    {
+        "year": "2023",
+        "number": "P054",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Defenses Against Model Poisoning Attacks in Federated Learning for Data Stream Applications"
+    },
+    {
+        "year": "2023",
+        "number": "P055",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Análise de Dados em Streaming e Processamento em Tempo Real"
+    },
+    {
+        "year": "2023",
+        "number": "P056",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Multiobjective Optimization in Massively Parallel Processing _MPP_"
+    },
+    {
+        "year": "2023",
+        "number": "P057",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Index Tuning Using Machine Learning for Quantum Databases"
+    },
+    {
+        "year": "2023",
+        "number": "P058",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Técnicas de Processamento de Dados Escaláveis e Eficientes para Big Data"
+    },
+    {
+        "year": "2023",
+        "number": "P059",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Advancing Data Management Exploring the Capabilities and Challenges of Data Lakehouses"
+    },
+    {
+        "year": "2023",
+        "number": "P060",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Exploring the Performance and Scalability of NewSQL Databases"
+    },
+    {
+        "year": "2023",
+        "number": "P061",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "THE LOOP",
+        "name": "LoopOS Implementação e integração de Design System"
+    },
+    {
+        "year": "2023",
+        "number": "P062",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "THE LOOP",
+        "name": "Sistema Modular de Gestão de Embalagens Inteligentes"
+    },
+    {
+        "year": "2023",
+        "number": "P063",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "THE LOOP",
+        "name": "Zero Cups Mobile development"
+    },
+    {
+        "year": "2023",
+        "number": "P064",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "THE LOOP",
+        "name": "Ferramentas de Agendamento de Testes Médicos"
+    },
+    {
+        "year": "2023",
+        "number": "P065",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "THE LOOP",
+        "name": "Ferramentas Modulares de Recommerce"
+    },
+    {
+        "year": "2023",
+        "number": "P066",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "THE LOOP",
+        "name": "LoopOS Frontend para ReCommerce"
+    },
+    {
+        "year": "2023",
+        "number": "P067",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "BIKiNNOV",
+        "name": "Desenvolvimento de Soluções em Realidade Aumentada"
+    },
+    {
+        "year": "2023",
+        "number": "P068",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Diagnóstico de Falhas usando um Sistema Baseado em Conhecimento"
+    },
+    {
+        "year": "2023",
+        "number": "P069",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Modelação 3D de Material Circulante Ferroviário"
+    },
+    {
+        "year": "2023",
+        "number": "P070",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "GEOLOGIC",
+        "name": "Desenvolvimento de aplicação de IoT"
+    },
+    {
+        "year": "2023",
+        "number": "P071",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Análise de Falhas em Equipamentos Industriais"
+    },
+    {
+        "year": "2023",
+        "number": "P072",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Visão Computacional para Análise de Falhas em Equipamentos Industriais"
+    },
+    {
+        "year": "2023",
+        "number": "P073",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Análise de EndUser License Agreements _EULA_ com recurso a técnicas inteligentes"
+    },
+    {
+        "year": "2023",
+        "number": "P074",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Análise de Dados Biológicos com Aprendizagem por Reforço"
+    },
+    {
+        "year": "2023",
+        "number": "P075",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "TALKDESK",
+        "name": "Otimização da escalabilidade de sistemas críticos através de cache"
+    },
+    {
+        "year": "2023",
+        "number": "P076",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Análise de registos de Repositórios OpenSource"
+    },
+    {
+        "year": "2023",
+        "number": "P077",
+        "semester": "2º Semestre",
+        "course": "DARASSI",
+        "company": "DEIS",
+        "name": "Plataformas de Desenvolvimento para IoT  Uma Avaliação Comparativa"
+    },
+    {
+        "year": "2023",
+        "number": "P078",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "RANGEL",
+        "name": "Metodologia de Controlo na Gestão de Ativos Físicos"
+    },
+    {
+        "year": "2023",
+        "number": "P079",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "RANGEL",
+        "name": "Controlo Qualidade e Monitorização de Integrações"
+    },
+    {
+        "year": "2023",
+        "number": "P080",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "DEIS",
+        "name": "Web App de Gestão de projetos e estágios"
+    },
+    {
+        "year": "2023",
+        "number": "P081",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "ONESOURCE",
+        "name": "Automação em administração de sistemas e redes"
+    },
+    {
+        "year": "2023",
+        "number": "P082",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "RIGOUROUS desenvolvimento de mecanismos de machine learning para deteção de anomalias"
+    },
+    {
+        "year": "2023",
+        "number": "P083",
+        "semester": "2º Semestre",
+        "course": "DARAS",
+        "company": "ONESOURCE",
+        "name": "RIGOUROUS orquestração de serviços em ambiente EdgeCloud utilizando Kubernetes"
+    },
+    {
+        "year": "2023",
+        "number": "P084",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "CHARITY desenvolvimento de plataforma para gestão Cloud em Python"
+    },
+    {
+        "year": "2023",
+        "number": "P085",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Mobitrust desenvolvimento de novas funcionalidades em VUE"
+    },
+    {
+        "year": "2023",
+        "number": "P086",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "NEUROINOVA",
+        "name": "Desenvolvimento, teste e validação de Software"
+    },
+    {
+        "year": "2023",
+        "number": "P087",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Mobitrust análise de imagens de satélite para identificação de indicadores relevantes para situações de emergência"
+    },
+    {
+        "year": "2023",
+        "number": "P088",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Mobitrust desenvolvimento de novas funcionalidades em Python"
+    },
+    {
+        "year": "2023",
+        "number": "P089",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Mobitrust mapeamento 3D de edifícios com Robô e LiDAR"
+    },
+    {
+        "year": "2023",
+        "number": "P090",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Mobitrust desenvolvimento de aplicação AR e VR para situações de emergência"
+    },
+    {
+        "year": "2023",
+        "number": "P091",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Mobitrust desenvolvimento de aplicação ANDROID para controlo de emergência"
+    },
+    {
+        "year": "2023",
+        "number": "P092",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Mobitrust desenvolvimento de aplicação ANDROID para controlo de emergência"
+    },
+    {
+        "year": "2023",
+        "number": "P093",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Mobitrust desenvolvimento de aplicação ANDROID para situações de emergência"
+    },
+    {
+        "year": "2023",
+        "number": "P094",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Desenvolvimento de aplicações web"
+    },
+    {
+        "year": "2023",
+        "number": "P095",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Desenvolvimento de aplicações web para Registo e Controlo de Assiduidade"
+    },
+    {
+        "year": "2023",
+        "number": "P096",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Desenvolvimento de plataforma web de Eparticipation"
+    },
+    {
+        "year": "2023",
+        "number": "P097",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "ONESOURCE",
+        "name": "Desenvolvimento de aplicação móvel"
+    },
+    {
+        "year": "2023",
+        "number": "P101",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "HORSE",
+        "name": "Desenvolvimento de Plataforma Integral de Segurança Centralização e Automação de Processos"
+    },
+    {
+        "year": "2023",
+        "number": "P102",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "HORSE",
+        "name": "Desenvolvimento de Plataforma Gamificada"
+    },
+    {
+        "year": "2023",
+        "number": "P103",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "HORSE",
+        "name": "Desenvolvimento de Plataforma para Gestão Operacional com Automação de KPIs"
+    },
+    {
+        "year": "2023",
+        "number": "P104",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "NOESIS",
+        "name": "Desenvolvimento WEB"
+    },
+    {
+        "year": "2023",
+        "number": "P105",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Present Technologies",
+        "name": "Desenvolvimento de soluções enterprise baseadas em Java"
+    },
+    {
+        "year": "2023",
+        "number": "P106",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Present Technologies",
+        "name": "Desenvolvimento de Aplicações Móveis nativas _iOS e Android_"
+    },
+    {
+        "year": "2023",
+        "number": "P107",
+        "semester": "2º Semestre",
+        "course": "SI",
+        "company": "Comsoftweb",
+        "name": "Integração Web_ERP"
+    },
+    {
+        "year": "2023",
+        "number": "P108",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "COIMFOR",
+        "name": "Migração de plataforma 32bits para 64bits"
+    },
+    {
+        "year": "2023",
+        "number": "P109",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Bring Global",
+        "name": "Backbase Developer"
+    },
+    {
+        "year": "2023",
+        "number": "P110",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Bring Global",
+        "name": "Backbase Quality Assurance _Automation_"
+    },
+    {
+        "year": "2023",
+        "number": "P111",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Bring Global",
+        "name": "Backbase_Nucoro Developer"
+    },
+    {
+        "year": "2023",
+        "number": "P112",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Bring Global",
+        "name": "Custom Developer"
+    },
+    {
+        "year": "2023",
+        "number": "P113",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Bring Global",
+        "name": "Integration API_Midleware Developer"
+    },
+    {
+        "year": "2023",
+        "number": "P114",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Bosch",
+        "name": "UniApp  Desenvolvimento de uma Plataforma Web"
+    },
+    {
+        "year": "2023",
+        "number": "P115",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Bosch",
+        "name": "Desenvolvimento aplicacional para Indústria 4.0 em contexto IoT"
+    },
+    {
+        "year": "2023",
+        "number": "P116",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "Bosch",
+        "name": "Desenvolvimento de projeto em Sistemas de Informação em contexto indústria 4.0"
+    },
+    {
+        "year": "2023",
+        "number": "P117",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "Altice Labs",
+        "name": "2023_24_N10_Plataforma AIOPs para monitoria e gestão de redes de próxima geração"
+    },
+    {
+        "year": "2023",
+        "number": "P118",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "Altice Labs",
+        "name": "2023_24_N22_Plataforma de Telemetria para dados de fluxos IP"
+    },
+    {
+        "year": "2023",
+        "number": "P119",
+        "semester": "2º Semestre",
+        "course": "DARAS",
+        "company": "Altice Labs",
+        "name": "2023_24_N37_Desenvolvimento da aplicação MEO Go no ecossistema Apple TV"
+    },
+    {
+        "year": "2023",
+        "number": "P120",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "Cavell Group",
+        "name": "Estágio em Redes"
+    },
+    {
+        "year": "2023",
+        "number": "P121",
+        "semester": "2º Semestre",
+        "course": "SI",
+        "company": "Co2Offset",
+        "name": "Criação de um Block Explorer para a Hedera"
+    },
+    {
+        "year": "2023",
+        "number": "P122",
+        "semester": "2º Semestre",
+        "course": "RASSI",
+        "company": "Cleanwatts",
+        "name": "[Datawarehouse] Sistema de informação  Transformação Digital"
+    },
+    {
+        "year": "2023",
+        "number": "P123",
+        "semester": "2º Semestre",
+        "course": "DARAS",
+        "company": "Art Resilia",
+        "name": "Threat Detection Engineering"
+    },
+    {
+        "year": "2023",
+        "number": "P124",
+        "semester": "2º Semestre",
+        "course": "DARAS",
+        "company": "Art Resilia",
+        "name": "Threat Detection and Prevention in Cloud Computing"
+    },
+    {
+        "year": "2023",
+        "number": "P125",
+        "semester": "2º Semestre",
+        "course": "RAS",
+        "company": "ITCENTER",
+        "name": "Apoio a implementação de solução para aceder a Servidores"
+    },
+    {
+        "year": "2023",
+        "number": "P126",
+        "semester": "2º Semestre",
+        "course": "SI",
+        "company": "DEIS",
+        "name": "Indexação de Dados para Consultas Específicas de Alta Performance em Big Data"
+    },
+    {
+        "year": "2023",
+        "number": "P127",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "ITGEST",
+        "name": "Estágio na ITGEST  Desenvolvimento de aplicações informáticas"
+    },
+    {
+        "year": "2023",
+        "number": "P128",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "Everedge Consulting",
+        "name": "UPstanding Talent Management – Ajuda Online – _A_ Portal de gestão de conteúdos"
+    },
+    {
+        "year": "2023",
+        "number": "P129",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "Everedge Consulting",
+        "name": "UPstanding Talent Management – Ajuda Online – _B_ Portal de ajuda ao utilizador"
+    },
+    {
+        "year": "2023",
+        "number": "P130",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "ILOF TECH",
+        "name": "Development of an AIbased recruiting platform"
+    },
+    {
+        "year": "2023",
+        "number": "P131",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "LOAD",
+        "name": "Web development"
+    },
+    {
+        "year": "2023",
+        "number": "P132",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Claranet",
+        "name": "Implementação de Sistema de Serviços de Radiocomunicações"
+    },
+    {
+        "year": "2023",
+        "number": "P133",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Claranet",
+        "name": "Digitalização dos Processos de Gestão de Compras  Pagamentos a Fornecedores"
+    },
+    {
+        "year": "2023",
+        "number": "P134",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Claranet",
+        "name": "Plataforma de Gestão da Formação Profissional"
+    },
+    {
+        "year": "2023",
+        "number": "P135",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Claranet",
+        "name": "Reformulação Tecnológica de Aplicação de Gestão Documental"
+    },
+    {
+        "year": "2023",
+        "number": "P136",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "Connecting Pixel",
+        "name": "Launch of a new Digital Product"
+    },
+    {
+        "year": "2023",
+        "number": "P137",
+        "semester": "2º Semestre",
+        "course": "DASI",
+        "company": "Connecting Pixel",
+        "name": "Launch of a new Digital Product"
+    },
+    {
+        "year": "2023",
+        "number": "P138",
+        "semester": "2º Semestre",
+        "course": "DA",
+        "company": "Flowbotic",
+        "name": "Autonomous Guided Vehicles @ Industry 4.0 _IoT_"
+    }
+]
