@@ -14,6 +14,7 @@ use_simple_term_menu = True
 propostas = {}
 forms_candidatura_url = "https://moodle.isec.pt/moodle/mod/data/view.php?id=265783-"
 propostas_url = "https://moodle.isec.pt/moodle/mod/folder/view.php?id=265705"
+logged_in = False
 
 try:
     from simple_term_menu import TerminalMenu
@@ -50,6 +51,11 @@ def post(url, data):
 
 def login(user, password):
     with console.status("[bold yellow] A efetuar login...") as status:
+        
+        global logged_in
+        if logged_in == True:
+            return 200
+
         login_url = "https://moodle.isec.pt/moodle/login/index.php"
         r = get(login_url)
         soup = BeautifulSoup(r.text, "html.parser")
@@ -69,6 +75,9 @@ def login(user, password):
 
         if(r.url == "https://moodle.isec.pt/moodle/login/index.php"):
             return 401
+        
+        if(r.status_code == 200):
+            logged_in = True
 
         return r.status_code
 
@@ -247,8 +256,8 @@ def obterNomesPropostas():
         console_print(f"[ ✓ ] Proposta {item.text} obtida com sucesso!", "green")
         console.print_json(json.dumps(proposal, indent=4, ensure_ascii=False))
 
-    # write on candidaturas.json with correct characters instead of \u00e3
-    with open("candidaturas.json", "w", encoding="utf-8") as f:
+    datetime = time.strftime("%Y-%m-%d_%H-%M-%S")
+    with open(f"candidaturas_{datetime}.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(candidaturas, indent=4, ensure_ascii=False))
     
     console_prompt("\nPressione qualquer tecla para voltar ao menu...", "#adadad")
